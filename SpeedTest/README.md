@@ -5,7 +5,7 @@ TODO: Think of a name for this
   - click the green "clone or download" button 
     - download the zip and extract it
     - or clone it 
-        - `git clone https://github.com/sjfricke/ThreeJS_demo.git` 
+        - `git clone https://github.com/procek93/BadgerloopMobileVR.git` 
 
 ## Running the server and testing your code
 - Need [Node.JS](http://nodejs.org/en/download/) to run
