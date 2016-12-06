@@ -102,10 +102,26 @@ function animate(timestamp) {
   var delta = Math.min(timestamp - lastRender, 500);
   lastRender = timestamp;
   controls.update();
-  
-  pivotCar.rotation.y += .002;  
-  pivotPlane.rotation.y += .005;  
+ 
+/*  Average Speeds
+-Car: 60mph
+-Boeing 747: 568mph
+-Bullet Train: 200mph
+-Hyperloop Speed: 760mph
+*/
     
+/* Relative Speed
+-Car: .0789
+-Boeing 747: .7474
+-Bullet Train: .2631
+-Hyperloop: 1
+*/
+
+  pivotCar.rotation.y += .002;  
+  pivotPlane.rotation.y += .005;
+  
+  
+
   // Render the scene through the manager.
   manager.render(scene, camera, timestamp);
   effect.render(scene, camera);
