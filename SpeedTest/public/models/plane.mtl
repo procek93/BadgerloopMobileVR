@@ -1,38 +1,149 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
-# File Created: 04.11.2016 01:16:38
+# File Created: 06.12.2016 13:34:06
 
-newmtl lambert2
-	Ns 0.0000
+newmtl B747taiB
+	Ns 100.0000
 	Ni 1.5000
 	d 1.0000
 	Tr 0.0000
 	Tf 1.0000 1.0000 1.0000 
 	illum 2
-	Ka 0.0000 0.0000 0.0000
-	Kd 0.2208 0.5304 0.8000
-	Ks 0.0000 0.0000 0.0000
+	Ka 0.5529 0.5529 0.5529
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0396 0.0396 0.0396
 	Ke 0.0000 0.0000 0.0000
+	map_Ka models/planeTexture/B747TAIB.JPG
+	map_Kd models/planeTexture/B747TAIB.JPG
 
-newmtl lambert3
-	Ns 0.0000
+newmtl B747blck
+	Ns 13.0000
 	Ni 1.5000
 	d 1.0000
 	Tr 0.0000
 	Tf 1.0000 1.0000 1.0000 
 	illum 2
-	Ka 0.0000 0.0000 0.0000
-	Kd 0.8000 0.7529 0.5960
-	Ks 0.0000 0.0000 0.0000
+	Ka 0.0314 0.0314 0.0314
+	Kd 0.0314 0.0314 0.0314
+	Ks 0.0396 0.0396 0.0396
 	Ke 0.0000 0.0000 0.0000
 
-newmtl lambert4
-	Ns 0.0000
+newmtl B747cpit
+	Ns 100.0000
 	Ni 1.5000
-	d 1.0000
-	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000 
+	d 0.7000
+	Tr 0.3000
+	Tf 0.7000 0.7000 0.7000 
 	illum 2
 	Ka 0.0000 0.0000 0.0000
 	Kd 0.0000 0.0000 0.0000
-	Ks 0.0000 0.0000 0.0000
+	Ks 0.0500 0.0500 0.0500
+	Ke 0.0000 0.0000 0.0000
+
+newmtl B747glas
+	Ns 100.0000
+	Ni 1.5000
+	d 0.7000
+	Tr 0.3000
+	Tf 0.7000 0.7000 0.7000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0500 0.0500 0.0500
+	Ke 0.0000 0.0000 0.0000
+
+newmtl B747grey
+	Ns 100.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1686 0.1686 0.1686
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0396 0.0396 0.0396
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/planeTexture/B747SILV.JPG
+	map_Kd models/planeTexture/B747SILV.JPG
+
+newmtl B747silv
+	Ns 100.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7294 0.7294 0.7294
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0396 0.0396 0.0396
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/planeTexture/B747SILV.JPG
+	map_Kd models/planeTexture/B747SILV.JPG
+
+newmtl B747line
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2118 0.2118 0.2118
+	Kd 0.2118 0.2118 0.2118
+	Ks 0.0396 0.0396 0.0396
+	Ke 0.0000 0.0000 0.0000
+	map_bump models/planeTexture/B747LINE.JPG
+	bump models/planeTexture/B747LINE.JPG
+
+newmtl B747luft
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4549 0.4549 0.4549
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0396 0.0396 0.0396
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/planeTexture/B747LUFT.JPG
+	map_Kd models/planeTexture/B747LUFT.JPG
+	map_d models/planeTexture/B747LUFT.JPG
+
+newmtl B747side
+	Ns 100.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5529 0.5529 0.5529
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0396 0.0396 0.0396
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/planeTexture/B747SIDE.JPG
+	map_Kd models/planeTexture/B747SIDE.JPG
+
+newmtl B747tail
+	Ns 100.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5529 0.5529 0.5529
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0396 0.0396 0.0396
+	Ke 0.0000 0.0000 0.0000
+	map_Ka models/planeTexture/B747TAIL.JPG
+	map_Kd models/planeTexture/B747TAIL.JPG
+
+newmtl B747whit
+	Ns 100.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5529 0.5529 0.5529
+	Kd 0.5529 0.5529 0.5529
+	Ks 0.0396 0.0396 0.0396
 	Ke 0.0000 0.0000 0.0000
